@@ -18,7 +18,7 @@
 from __future__ import division
 
 import os.path
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from tensorflow import flags
 import datasets
 import loader

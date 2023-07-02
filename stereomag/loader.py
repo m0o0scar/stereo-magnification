@@ -19,7 +19,7 @@ For easiest setup, use create_from_flags, then you won't have to specify any
 additional options.
 """
 import os.path
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from tensorflow import flags
 import datasets
 

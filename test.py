@@ -18,7 +18,7 @@
 """
 from __future__ import division
 import os
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from stereomag.mpi import MPI
 from stereomag.sequence_data_loader import SequenceDataLoader

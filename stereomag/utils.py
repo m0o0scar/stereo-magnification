@@ -19,7 +19,7 @@ import math
 import numpy as np
 import PIL.Image as pil
 from scipy import signal
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 
 def write_image(filename, image):

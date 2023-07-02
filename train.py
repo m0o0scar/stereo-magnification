@@ -16,7 +16,7 @@
 """Main script for training multiplane image (MPI) network.
 """
 from __future__ import division
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from stereomag.sequence_data_loader import SequenceDataLoader
 from stereomag.mpi import MPI

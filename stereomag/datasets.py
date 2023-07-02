@@ -17,7 +17,7 @@
 import collections
 import math
 import os.path
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import utils
 
 

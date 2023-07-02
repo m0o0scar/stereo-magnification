@@ -19,7 +19,7 @@
 from __future__ import division
 import os
 import sys
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from stereomag.mpi import MPI
 from stereomag.utils import build_matrix

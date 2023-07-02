@@ -17,7 +17,7 @@
 """
 from __future__ import division
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import tf_slim as slim
 
 def mpi_net(inputs, num_outputs, ngf=64, vscope='net', reuse_weights=False):

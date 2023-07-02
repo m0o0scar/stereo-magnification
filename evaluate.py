@@ -21,7 +21,7 @@ import os
 import json
 import numpy as np
 import PIL.Image as pil
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from multiprocessing.dummy import Pool
 
