@@ -18,6 +18,7 @@
 from __future__ import division
 import numpy as np
 import tensorflow.compat.v1 as tf
+tf.enable_eager_execution()
 import tf_slim as slim
 
 def mpi_net(inputs, num_outputs, ngf=64, vscope='net', reuse_weights=False):

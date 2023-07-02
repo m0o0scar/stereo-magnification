@@ -20,6 +20,7 @@ additional options.
 """
 import os.path
 import tensorflow.compat.v1 as tf
+tf.enable_eager_execution()
 from tensorflow import flags
 import datasets
 

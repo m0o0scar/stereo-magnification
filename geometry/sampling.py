@@ -22,6 +22,7 @@ from __future__ import division
 from __future__ import print_function
 
 import tensorflow.compat.v1 as tf
+tf.enable_eager_execution()
 
 
 def bilinear_wrapper(imgs, coords):

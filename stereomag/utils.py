@@ -20,6 +20,7 @@ import numpy as np
 import PIL.Image as pil
 from scipy import signal
 import tensorflow.compat.v1 as tf
+tf.enable_eager_execution()
 
 
 def write_image(filename, image):

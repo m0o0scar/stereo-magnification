@@ -22,6 +22,7 @@ import json
 import numpy as np
 import PIL.Image as pil
 import tensorflow.compat.v1 as tf
+tf.enable_eager_execution()
 
 from multiprocessing.dummy import Pool
 

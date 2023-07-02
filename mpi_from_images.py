@@ -20,6 +20,7 @@ from __future__ import division
 import os
 import sys
 import tensorflow.compat.v1 as tf
+tf.enable_eager_execution()
 
 from stereomag.mpi import MPI
 from stereomag.utils import build_matrix

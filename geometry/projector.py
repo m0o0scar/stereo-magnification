@@ -18,6 +18,7 @@
 """
 from __future__ import division
 import tensorflow.compat.v1 as tf
+tf.enable_eager_execution()
 import homography
 
 

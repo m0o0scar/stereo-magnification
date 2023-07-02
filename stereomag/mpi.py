@@ -20,6 +20,7 @@ from __future__ import division
 import os
 import time
 import tensorflow.compat.v1 as tf
+tf.enable_eager_execution()
 import geometry.projector as pj
 from third_party.vgg import build_vgg19
 from .nets import mpi_net

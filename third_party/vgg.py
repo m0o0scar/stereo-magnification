@@ -10,6 +10,7 @@
 from __future__ import division
 import numpy as np
 import tensorflow.compat.v1 as tf
+tf.enable_eager_execution()
 
 
 def build_net(ntype, nin, nwb=None, name=None):

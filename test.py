@@ -19,6 +19,7 @@
 from __future__ import division
 import os
 import tensorflow.compat.v1 as tf
+tf.enable_eager_execution()
 
 from stereomag.mpi import MPI
 from stereomag.sequence_data_loader import SequenceDataLoader
